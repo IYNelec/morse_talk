@@ -5,7 +5,7 @@
 import sys
 
 test_dat = [
-    3, 93, 0,
+    3, 93, "Error",
     6, 51, "ヘ",
     9, 27, "゛",
     12, 21, "ラ",
@@ -80,22 +80,15 @@ def decoder(in_str):
             pointer = test_dat[pointer]
         elif letter == '-':
             pointer = test_dat[pointer + 1]
-        else:
-            # illegal string
+        else: # illegal string
             pointer = 0
-            break
         
         # error pattern detected
         if pointer == 0:
             break
     # --- for in_str
 
-    if pointer == 0:
-        out_str = 'error'
-    else:
-        out_str = test_dat[pointer + 2]
-
-    return out_str
+    return test_dat[pointer + 2]
 
 
 def main(argv):
@@ -103,6 +96,7 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    ret = main(sys.argv[1:])
+    print(ret)
 
 #eof
