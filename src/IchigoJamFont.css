@@ -1,0 +1,19 @@
+@font-face
+{
+    font-family: "ichigojam";
+    font-style: normal;
+    font-weight: 400;
+    src: local('IchigoJam-1.4'), local('IchigoJam-1.4-Regular'),
+         url("./IchigoJam-1.4.woff") format('woff');
+}
+code.language-ichigojam
+{
+    font-family: 'ichigojam';
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #000000;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 15px;
+}
