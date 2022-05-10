@@ -2,7 +2,7 @@
 
 ## FILE0 INIT
 
-```ichigojam
+```"ichigojam"
 1 'ｱﾝｺﾞｳｻｸｾｲ2022.5.7
 20 SRND TICK():CLV:CLS
 30 POKE #1003,1,34
