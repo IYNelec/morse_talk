@@ -1,4 +1,11 @@
-<link href="./IchigoJamFont.css" rel="stylesheet"></link>
+@font-face
+{
+    font-family: "ichigojam";
+    font-style: normal;
+    font-weight: 400;
+    src: local('IchigoJam-1.4'), local('IchigoJam-1.4-Regular'),
+         url("https://cdn.jsdelivr.net/gh/fu-sen/ichigojam-font@20190814/IchigoJam-1.4.woff") format('woff');
+}
 
 ## FILE0 INIT
 
