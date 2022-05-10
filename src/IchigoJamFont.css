@@ -1,10 +1,9 @@
 @font-face
 {
-    font-family: "ichigojam";
+    font-family: ichigojam;
     font-style: normal;
     font-weight: 400;
-    src: local('IchigoJam-1.4'), local('IchigoJam-1.4-Regular'),
-         url("./IchigoJam-1.4.woff") format('woff');
+    src: url("./IchigoJam-1.4.woff") format('woff');
 }
 code.language-ichigojam
 {
