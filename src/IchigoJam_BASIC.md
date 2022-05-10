@@ -1,5 +1,10 @@
 <link href="./IchigoJamFont.css" rel="stylesheet"></link>
 
+<iyn>
+ICHIGOJAM BASIC
+イチゴジャムベーシック
+</iyn>
+
 ## FILE0 INIT
 
 <pre><code class="language-ichigojam">
