@@ -25,9 +25,9 @@ Contents
 
 ### 2.1 photo image
 
-<img src=./img/IMG_20220509_150147.jpg width=50%>
+<img src=./img/IMG_20220509_150147.jpg width=80%>
 
-これは「福生 de はむハムフェア」において展示を行ったときに作成した構成例の写真です。液晶モニタはコンポジット出力のものは使用しませんでした。
+これは「福生 de はむハムフェア(2022/5/8)」において展示を行ったときに作成した構成例の写真です。液晶モニタはコンポジット出力のものは使用しませんでした。
 
 ### 2.2 source codes
 
@@ -35,7 +35,9 @@ Contents
 
 　実行は IchigoJam の電源を入れなおすか LRUN0 コマンドです
 
-　IchigoJam BASIC のソースコードは一般的な Windows パソコンで表示するとカナ文字が化けてしまいますが、IJUtilities などの IchigoJam 専用ターミナルソフトで開くことによって正確に表示することができます。画像でソースコードを表示した場合の例を img/FILE0_INIT.jpg, FILE1_MAIN.jpg に示します
+　IchigoJam BASIC のソースコードは一般的な Windows パソコンで表示するとカナ文字が化けてしまいますが、IJUtilities などの IchigoJam 専用ターミナルソフトで開くことによって正確に表示することができます。画像でソースコードを表示した場合の例を img/FILE0_INIT.jpg, FILE1_MAIN.jpg に示します。
+
+　また BASIC ソースコードを PDF にしました。→[src/IchigoJam_BASIC.pdf](src/IchigoJam_BASIC.pdf)
 
 ## 3. TODO
 
