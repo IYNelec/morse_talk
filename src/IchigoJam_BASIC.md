@@ -7,7 +7,7 @@ ICHIGOJAM BASIC
 
 ## FILE0 INIT
 
-<code><pre><iyn>
+<pre><code><iyn>
 10 @ARUN:CLV:'2022.5.7
 15 G=#800:L=#8BC:M=#8C5:P=#7FE:Q=#8CA
 20 POKE#800,3,93,149,6,51,83,9,27,146,12,21,128,15,18,66,0,0,165,0,0,164,0,24,18,0,0,163,30,39,2,33,36,49,0,0,52,0,0,97,42,48,68,45,0,147,0,0,149,0,0,162
@@ -28,8 +28,8 @@ ICHIGOJAM BASIC
 
 ## FILE1 MAIN
 
-<pre><code class="language-ichigojam">
-10 '���-�MAIN 2022.5.7
+<pre><code><iyn>
+10 'ホレトークMAIN 2022.5.7
 20 A=!IN(3)
 30 C=C+A*B
 40 IF(B=0)*(A=1)C=0:D=0:BEEP0:PLAY"O5A4"
@@ -42,9 +42,9 @@ ICHIGOJAM BASIC
 110 IFF=0?"ERROR"
 120 RTN
 200 H=PEEK(F+2+G):I=H/16:J=H&15
-210 K=(I<7)*(I*5+J+#B1)+(I=7)*(#D4+J/2)+(I=8)*(#D7+J)+(I=9)*(#DC+J)+(I=10)*(#30+J):?" ";CHR$(K)
+210 K=(I&lt7)*(I*5+J+#B1)+(I=7)*(#D4+J/2)+(I=8)*(#D7+J)+(I=9)*(#DC+J)+(I=10)*(#30+J):?" ";CHR$(K)
 220 F=0
-230 IFI<9POKEP,PEEK(L+I),PEEK(M+J)
+230 IFI&lt9POKEP,PEEK(L+I),PEEK(M+J)
 240 IF(I=9)*((J=0)+(J=4))POKEP,#77,PEEK(M+J)
 241 IF(I=9)*(J=1)POKEP,#6E,#6E
 250 IF(I=9)*(J=2)N=PEEK(P):POKEP,(N=1)*#67+(N=2)*#7A+(N=3)*#64+(N=5)*#62
@@ -53,4 +53,4 @@ ICHIGOJAM BASIC
 280 O=I2CR(46,Q,1):IFPEEK(Q)<>62CONT
 290 O=I2CW(46,P,2)&I2CW(46,13)
 300 RTN
-</code></pre>
+</iyn></code></pre>

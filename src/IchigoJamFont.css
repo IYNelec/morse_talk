@@ -19,4 +19,5 @@ code.language-ichigojam
 
 iyn {
     font-family: 'IchigoJam 1.4';
+    word-break: break-all;
 }
